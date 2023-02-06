@@ -128,11 +128,12 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1140px){
     .container {
-        width: 100vw;
+        width: 100%;
     }
 }
+
 
 @media screen and (max-width: 480px) {
     .row {
@@ -150,4 +151,19 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    .why-us{
+        background-color: #222222;
+        margin: 0;
+        padding: 3rem 0;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
+    .card{
+        margin: 2rem 0;
+    }
+
 }
